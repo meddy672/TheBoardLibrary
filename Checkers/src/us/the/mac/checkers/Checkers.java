@@ -1,14 +1,22 @@
-package us.the.mac.knighted;
+package us.the.mac.checkers;
 
-import us.the.mac.board.GuideBoardDisplay;
+import us.the.mac.board.BoardDisplay;
+import us.the.mac.knighted.R;
 import android.os.Bundle;
+import android.view.Menu;
 
-public class KnightedGuides extends GuideBoardDisplay {
+public class Checkers extends BoardDisplay {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		initializeGameGuide(R.layout.guide_knight_starting_positions);
+		setContentView(R.layout.checkers);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.knighted, menu);
+		return true;
 	}
 
 	@Override public void startGame() { }

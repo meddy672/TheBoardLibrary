@@ -1,4 +1,4 @@
-package us.the.mac.knighted;
+package us.the.mac.checkers;
 
 import us.the.mac.board.Board;
 import us.the.mac.board.BoardContent;
@@ -6,9 +6,9 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.util.AttributeSet;
 
-public class KnightedBoard extends Board {
+public class CheckersBoard extends Board {
 	
-	public KnightedBoard(Context context, AttributeSet attrs) {
+	public CheckersBoard(Context context, AttributeSet attrs) {
 		super(context, attrs);
 	}
 	

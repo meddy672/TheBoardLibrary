@@ -1,4 +1,4 @@
-package us.the.mac.knighted.pieces;
+package us.the.mac.checkers.pieces;
 
 import us.the.mac.board.Board.Piece;
 import us.the.mac.knighted.R;
@@ -6,9 +6,9 @@ import us.the.mac.knighted.R;
 import android.content.Context;
 import android.util.AttributeSet;
 
-public class Knight extends Piece {
+public class KingedChecker extends Piece {
 
-	public Knight(Context context, AttributeSet attrs) {
+	public KingedChecker(Context context, AttributeSet attrs) {
 		super(context, attrs);
 	}
 

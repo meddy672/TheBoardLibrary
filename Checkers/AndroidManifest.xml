@@ -20,7 +20,7 @@
         <!-- us.the.mac.knighted.Knighted -->
 		<!-- us.the.mac.knighted.KnightedGuides -->        
         <activity
-            android:name="us.the.mac.knighted.Knighted"
+            android:name="us.the.mac.checkers.Checkers"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

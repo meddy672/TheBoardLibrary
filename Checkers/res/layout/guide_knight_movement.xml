@@ -10,11 +10,11 @@
     guide:step_messages="@array/guide_knight_movement_messages"
     guide:steps="@array/guide_knight_movement_steps" >
 
-    <us.the.mac.knighted.pieces.Knight
+    <us.the.mac.checkers.pieces.Checker
         board:square="b1"
         board:color="white" />
 
-    <us.the.mac.knighted.pieces.Knight
+    <us.the.mac.checkers.pieces.Checker
         board:square="f6"
         board:color="black" />
 

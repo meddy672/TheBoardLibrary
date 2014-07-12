@@ -10,19 +10,19 @@
     guide:step_messages="@array/guide_knight_starting_messages"
     guide:steps="@array/no_steps" >
     
-    <us.the.mac.knighted.pieces.Knight
+    <us.the.mac.checkers.pieces.Checker
         board:square="b1"
         board:color="white" />
 
-    <us.the.mac.knighted.pieces.Knight
+    <us.the.mac.checkers.pieces.Checker
         board:square="g1"
         board:color="white" />
 
-    <us.the.mac.knighted.pieces.Knight
+    <us.the.mac.checkers.pieces.Checker
         board:square="b8"
         board:color="black" />
 
-    <us.the.mac.knighted.pieces.Knight
+    <us.the.mac.checkers.pieces.Checker
         board:square="g8"
         board:color="black" />
     
