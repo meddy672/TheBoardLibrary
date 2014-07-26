@@ -1,12 +1,108 @@
-<us.the.mac.checkers.CheckersBoard
-	xmlns:android="http://schemas.android.com/apk/res/android"
+<us.the.mac.checkers.CheckersBoard xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:board="http://schemas.android.com/apk/res/us.the.mac.knighted"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Checkers" >
 
-    <us.the.mac.checkers.pieces.Checker board:square="d4" board:color="white" />
-    <us.the.mac.checkers.pieces.Checker board:square="f5" board:color="black" />
+    <!-- First row black -->
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="a1"
+        board:color="white" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="c1"
+        board:color="white" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="e1"
+        board:color="white" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="g1"
+        board:color="white" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="h2"
+        board:color="white" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="f2"
+        board:color="white" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="d2"
+        board:color="white" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="b2"
+        board:color="white" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="a3"
+        board:color="white" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="c3"
+        board:color="white" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="e3"
+        board:color="white" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="g3"
+        board:color="white" />
+
+    <!-- End of black checker pieces -->
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="b8"
+        board:color="black" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="d8"
+        board:color="black" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="f8"
+        board:color="black" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="h8"
+        board:color="black" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="a7"
+        board:color="black" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="c7"
+        board:color="black" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="e7"
+        board:color="black" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="g7"
+        board:color="black" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="h6"
+        board:color="black" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="f6"
+        board:color="black" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="d6"
+        board:color="black" />
+
+    <us.the.mac.checkers.pieces.Checker
+        board:square="b6"
+        board:color="black" />
 
 </us.the.mac.checkers.CheckersBoard>

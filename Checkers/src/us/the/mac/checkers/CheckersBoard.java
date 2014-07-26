@@ -2,6 +2,7 @@ package us.the.mac.checkers;
 
 import us.the.mac.board.Board;
 import us.the.mac.board.BoardContent;
+import us.the.mac.knighted.R;
 import android.content.ContentValues;
 import android.content.Context;
 import android.util.AttributeSet;
@@ -20,6 +21,7 @@ public class CheckersBoard extends Board {
 	protected void currentPieceMovement(Square squ) {
 		
 		boolean hasPiece = squ.piece != null;
+		
 		String currentlySelectedPiece = Piece.selectedPiece().toString();
 		super.currentPieceMovement(squ);
 		
