@@ -64,24 +64,24 @@ public class Checker extends Piece {
 					else
 					{
 						move_2 = fromCurPos(MOVE_UP_RIGHT+MOVE_UP_RIGHT);
-//						if(Board.getSquareAt(diagRight+MOVE_UP_RIGHT+MOVE_UP_RIGHT).hasPiece()==true)
-//						{
-//							if(Board.Piece.getPieceAt(diagRight+MOVE_UP_RIGHT+MOVE_UP_RIGHT).isOpponent(Color.WHITE))
-//							{
-//								if(Board.getSquareAt(diagRight+MOVE_UP_RIGHT+MOVE_UP_RIGHT+MOVE_UP_RIGHT).hasPiece()==true)
-//								{
-//									move_3 = INVALID_MOVE;
-//								}
-//								else
-//								{
-//									move_3 = fromCurPos(diagRight+MOVE_UP_RIGHT+MOVE_UP_RIGHT+MOVE_UP_RIGHT);
-//								}
-//							}
-//						}
-//						else
-//						{
-//							move_3 = INVALID_MOVE;
-//						}
+						if(Board.getSquareAt(MOVE_UP_RIGHT+MOVE_UP_RIGHT+MOVE_UP_RIGHT).hasPiece()==true)
+						{
+							if(Board.Piece.getPieceAt(MOVE_UP_RIGHT+MOVE_UP_RIGHT+MOVE_UP_RIGHT).isOpponent(Color.WHITE))
+							{
+								if(Board.getSquareAt(MOVE_UP_RIGHT+MOVE_UP_RIGHT+MOVE_UP_RIGHT+MOVE_UP_RIGHT).hasPiece()==true)
+								{
+									move_3 = INVALID_MOVE;
+								}
+								else
+								{
+									move_3 = fromCurPos(MOVE_UP_RIGHT+MOVE_UP_RIGHT+MOVE_UP_RIGHT+MOVE_UP_RIGHT);
+								}
+							}
+						}
+						else
+						{
+							move_3 = INVALID_MOVE;
+						}
 					}
 					if(Board.getSquareAt(diagLeft+MOVE_UP_LEFT).hasPiece()==true)
 					{
